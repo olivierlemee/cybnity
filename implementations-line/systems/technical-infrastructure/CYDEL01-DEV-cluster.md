@@ -52,7 +52,7 @@ Open traffic on server allowing any discussion between server and SUPPORT cluste
 ### DNS Resolver
 By default, external server ip address and hostnames is not visible from pods deployed into the cluster.
 
-Like RKE2 is by default reading the resolv.conf of Linux layer, add DNS servers definition as Global setting:
+Like RKE2 is by default reading the `resolv.conf` file of Linux layer, add DNS servers definition as Global setting:
 ```
   # Read resolution status
   sudo resolvectl status
