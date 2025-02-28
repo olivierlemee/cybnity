@@ -358,7 +358,7 @@ By default, NetworkManager (configuration file at __/etc/NetworkManager/NetworkM
 
 ### Firewall
 - Check status of default Ubuntu installed firewall via command: `sudo ufw status`
-  - and disable when not needed
+  - disable when not needed
 
 ### Routing
 Opening of 6443 tcp port using iptables (see [RKE doc](https://rke.docs.rancher.com/os#ports)) via command:
